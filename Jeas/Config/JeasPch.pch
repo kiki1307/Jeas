@@ -1,0 +1,32 @@
+//
+//  JeasPch.pch
+//  Jeas
+//
+//  Created by 邸超 on 2017/3/13.
+//  Copyright © 2017年 ANGEL. All rights reserved.
+//
+
+#ifndef JeasPch_pch
+#define JeasPch_pch
+
+
+
+#ifdef __OBJC__
+
+#import <Foundation/Foundation.h>
+#import <UIKit/UIKit.h>
+
+#import "Define.h"
+#import "headFile.h"
+#import "CustomHead.h"
+
+
+//#import"EMSDK.h"
+#import <Hyphenate/Hyphenate.h>
+#import"EaseUI.h"
+
+
+#else
+#endif
+
+#endif
