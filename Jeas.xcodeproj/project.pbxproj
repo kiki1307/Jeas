@@ -27,6 +27,11 @@
 		FE91DB8B1E779E3000B6D5F7 /* LoginController.m in Sources */ = {isa = PBXBuildFile; fileRef = FE91DB8A1E779E3000B6D5F7 /* LoginController.m */; };
 		FE91DB8F1E77B61D00B6D5F7 /* DCBaseController.m in Sources */ = {isa = PBXBuildFile; fileRef = FE91DB8E1E77B61D00B6D5F7 /* DCBaseController.m */; };
 		FEABB9511E8147C800E498EE /* MessageDetailController.m in Sources */ = {isa = PBXBuildFile; fileRef = FEABB9501E8147C800E498EE /* MessageDetailController.m */; };
+		FEF7E12C1FC7F0E500A7F57C /* DownCenterController.m in Sources */ = {isa = PBXBuildFile; fileRef = FEF7E12B1FC7F0E500A7F57C /* DownCenterController.m */; };
+		FEF7E1321FC7F12C00A7F57C /* DownCell.m in Sources */ = {isa = PBXBuildFile; fileRef = FEF7E1311FC7F12C00A7F57C /* DownCell.m */; };
+		FEF7E1351FC7F14300A7F57C /* DownModel.m in Sources */ = {isa = PBXBuildFile; fileRef = FEF7E1341FC7F14300A7F57C /* DownModel.m */; };
+		FEF7E1391FC7F52F00A7F57C /* UIColor+Hex.m in Sources */ = {isa = PBXBuildFile; fileRef = FEF7E1371FC7F52F00A7F57C /* UIColor+Hex.m */; };
+		FEF7E13C1FC7FB0F00A7F57C /* SectionCModel.m in Sources */ = {isa = PBXBuildFile; fileRef = FEF7E13B1FC7FB0F00A7F57C /* SectionCModel.m */; };
 		FEFE268C1E767ED20090211E /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = FEFE268B1E767ED20090211E /* main.m */; };
 		FEFE26951E767ED20090211E /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = FEFE26931E767ED20090211E /* Main.storyboard */; };
 		FEFE26971E767ED20090211E /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = FEFE26961E767ED20090211E /* Assets.xcassets */; };
@@ -94,6 +99,16 @@
 		FE91DB8E1E77B61D00B6D5F7 /* DCBaseController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DCBaseController.m; sourceTree = "<group>"; };
 		FEABB94F1E8147C800E498EE /* MessageDetailController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MessageDetailController.h; sourceTree = "<group>"; };
 		FEABB9501E8147C800E498EE /* MessageDetailController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MessageDetailController.m; sourceTree = "<group>"; };
+		FEF7E12A1FC7F0E500A7F57C /* DownCenterController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = DownCenterController.h; sourceTree = "<group>"; };
+		FEF7E12B1FC7F0E500A7F57C /* DownCenterController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = DownCenterController.m; sourceTree = "<group>"; };
+		FEF7E1301FC7F12C00A7F57C /* DownCell.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = DownCell.h; sourceTree = "<group>"; };
+		FEF7E1311FC7F12C00A7F57C /* DownCell.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = DownCell.m; sourceTree = "<group>"; };
+		FEF7E1331FC7F14300A7F57C /* DownModel.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = DownModel.h; sourceTree = "<group>"; };
+		FEF7E1341FC7F14300A7F57C /* DownModel.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = DownModel.m; sourceTree = "<group>"; };
+		FEF7E1371FC7F52F00A7F57C /* UIColor+Hex.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIColor+Hex.m"; sourceTree = "<group>"; };
+		FEF7E1381FC7F52F00A7F57C /* UIColor+Hex.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIColor+Hex.h"; sourceTree = "<group>"; };
+		FEF7E13A1FC7FB0F00A7F57C /* SectionCModel.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = SectionCModel.h; sourceTree = "<group>"; };
+		FEF7E13B1FC7FB0F00A7F57C /* SectionCModel.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SectionCModel.m; sourceTree = "<group>"; };
 		FEFE26871E767ED20090211E /* Jeas.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Jeas.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		FEFE268B1E767ED20090211E /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		FEFE26941E767ED20090211E /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
@@ -232,6 +247,8 @@
 			children = (
 				FE8329BE1E7924F20048646D /* SectionCController.h */,
 				FE8329BF1E7924F20048646D /* SectionCController.m */,
+				FEF7E13A1FC7FB0F00A7F57C /* SectionCModel.h */,
+				FEF7E13B1FC7FB0F00A7F57C /* SectionCModel.m */,
 			);
 			path = com.angel.sectionC;
 			sourceTree = "<group>";
@@ -273,8 +290,23 @@
 		FEAFAF6D1FBD71B5000C45B3 /* com.dev.catagory */ = {
 			isa = PBXGroup;
 			children = (
+				FEF7E1381FC7F52F00A7F57C /* UIColor+Hex.h */,
+				FEF7E1371FC7F52F00A7F57C /* UIColor+Hex.m */,
 			);
 			path = com.dev.catagory;
+			sourceTree = "<group>";
+		};
+		FEF7E1261FC7EFA900A7F57C /* com.angel.downloder */ = {
+			isa = PBXGroup;
+			children = (
+				FEF7E12A1FC7F0E500A7F57C /* DownCenterController.h */,
+				FEF7E12B1FC7F0E500A7F57C /* DownCenterController.m */,
+				FEF7E1301FC7F12C00A7F57C /* DownCell.h */,
+				FEF7E1311FC7F12C00A7F57C /* DownCell.m */,
+				FEF7E1331FC7F14300A7F57C /* DownModel.h */,
+				FEF7E1341FC7F14300A7F57C /* DownModel.m */,
+			);
+			path = com.angel.downloder;
 			sourceTree = "<group>";
 		};
 		FEFE267E1E767ED20090211E = {
@@ -302,6 +334,7 @@
 		FEFE26891E767ED20090211E /* Jeas */ = {
 			isa = PBXGroup;
 			children = (
+				FEF7E1261FC7EFA900A7F57C /* com.angel.downloder */,
 				FEAFAF6C1FBD71B5000C45B3 /* com.dev.resources */,
 				FEAFAF6D1FBD71B5000C45B3 /* com.dev.catagory */,
 				FE5AD6A11FBD67F400AE3B54 /* com.dev.tools */,
@@ -554,16 +587,21 @@
 				FE5AD6BB1FBD6BD200AE3B54 /* OnlineStudyCallBack.m in Sources */,
 				FE5AD6AD1FBD67F400AE3B54 /* ViewProperty.m in Sources */,
 				FE5AD6BC1FBD6BD200AE3B54 /* UrlFactory.m in Sources */,
+				FEF7E1351FC7F14300A7F57C /* DownModel.m in Sources */,
 				FE5AD6BA1FBD6BD200AE3B54 /* NetRequstUrl.m in Sources */,
+				FEF7E1321FC7F12C00A7F57C /* DownCell.m in Sources */,
 				FE8329BA1E7924BC0048646D /* SectionAController.m in Sources */,
 				FE5AD6B91FBD6BD200AE3B54 /* AccountManager.m in Sources */,
+				FEF7E1391FC7F52F00A7F57C /* UIColor+Hex.m in Sources */,
 				FE5AD6AC1FBD67F400AE3B54 /* Tools.m in Sources */,
+				FEF7E13C1FC7FB0F00A7F57C /* SectionCModel.m in Sources */,
 				FE5AD6CA1FBD6D9100AE3B54 /* VerticallyAlignedLabel.m in Sources */,
 				FE5AD6AB1FBD67F400AE3B54 /* RunTime.m in Sources */,
 				FE5AD6C91FBD6D9100AE3B54 /* RTLabel.m in Sources */,
 				FE5AD6C31FBD6D5A00AE3B54 /* ViewController.m in Sources */,
 				FE8329B21E7915E10048646D /* MainController.m in Sources */,
 				FE8329BD1E7924DC0048646D /* SectionBController.m in Sources */,
+				FEF7E12C1FC7F0E500A7F57C /* DownCenterController.m in Sources */,
 				FE8329C01E7924F20048646D /* SectionCController.m in Sources */,
 				FEFE268C1E767ED20090211E /* main.m in Sources */,
 			);

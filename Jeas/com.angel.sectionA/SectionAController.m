@@ -11,6 +11,8 @@
 
 #import "MessageDetailController.h"
 
+
+#import "DownCenterController.h"
 @interface SectionAController ()
 {
 
@@ -83,6 +85,11 @@
 
 #pragma mark --- action
 - (void)assetDownlosadcfas{
+    
+    DownCenterController *center = [DownCenterController new];
+    [self.navigationController pushViewController:center animated:YES];
+    return;
+    
 
     MessageDetailController *chatController = [[MessageDetailController alloc] initWithConversationChatter:@"8001" conversationType:EMConversationTypeChat];
     
