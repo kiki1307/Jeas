@@ -10,4 +10,21 @@
 
 @implementation SectionCModel
 
+
+- (instancetype)initTitleWith:(NSString*)msTitle msIconName:(NSString*)msIconName {
+    
+    if (self == [super init]) {
+        
+        _msTitle = msTitle;
+        _msIconName = msIconName;
+    }
+    
+    return self;
+}
++ (instancetype)modelWith:(NSString*)msTitle msIconName:(NSString*)msIconName {
+    
+    
+    return [[SectionCModel alloc] initTitleWith:msTitle msIconName:msIconName];
+}
+
 @end
