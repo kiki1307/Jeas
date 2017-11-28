@@ -10,4 +10,6 @@
 
 @interface SectionCController : DCBaseController
 
+@property(nonatomic,assign) int *number;
+
 @end

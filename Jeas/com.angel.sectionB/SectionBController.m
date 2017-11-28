@@ -36,7 +36,7 @@
 // 设置导航栏 appearance
 - (void)setupNavigationBarAppearance{
     [super setupNavigationBarAppearance];
-    self.navigationItem.title = @"第二章";
+    self.navigationItem.title = @"培训";
 }
 // 设置子控价UI
 - (void)setupSubviewsUI{

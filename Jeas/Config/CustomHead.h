@@ -9,10 +9,8 @@
 #ifndef CustomHead_h
 #define CustomHead_h
 
-
-
-
 #import "RTLabel.h"
-
 #import "AppDelegate.h"
+
+
 #endif /* CustomHead_h */

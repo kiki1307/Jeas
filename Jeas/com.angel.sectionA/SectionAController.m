@@ -11,6 +11,8 @@
 
 #import "MessageDetailController.h"
 
+
+#import "DownCenterController.h"
 @interface SectionAController ()
 {
 
@@ -70,7 +72,7 @@
 // 设置导航栏 appearance
 - (void)setupNavigationBarAppearance{
     [super setupNavigationBarAppearance];
-    self.navigationItem.title = @"第一章";
+    self.navigationItem.title = @"学习";
 }
 
 // 设置子控价UI
@@ -83,6 +85,11 @@
 
 #pragma mark --- action
 - (void)assetDownlosadcfas{
+    
+    DownCenterController *center = [DownCenterController new];
+    [self.navigationController pushViewController:center animated:YES];
+    return;
+    
 
     MessageDetailController *chatController = [[MessageDetailController alloc] initWithConversationChatter:@"8001" conversationType:EMConversationTypeChat];
     
