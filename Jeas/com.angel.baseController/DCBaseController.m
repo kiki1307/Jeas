@@ -75,18 +75,23 @@
     
     
     // 隐藏'返回'文字
-    [[UIBarButtonItem appearance] setBackButtonTitlePositionAdjustment:UIOffsetMake(NSIntegerMin, NSIntegerMin) forBarMetrics:UIBarMetricsDefault];
+//    [[UIBarButtonItem appearance] setBackButtonTitlePositionAdjustment:UIOffsetMake(NSIntegerMin, NSIntegerMin) forBarMetrics:UIBarMetricsDefault];
+//
+//    UINavigationBar * navigationBar = [UINavigationBar appearance];
+//    [navigationBar setTintColor:[UIColor redColor]];
+//    UIImage *image = [UIImage imageNamed:@"nav_back.png"];
+//    image = [image imageWithRenderingMode:UIImageRenderingModeAlwaysOriginal];
+//    navigationBar.backIndicatorImage = image;
+//    navigationBar.backIndicatorTransitionMaskImage = image;
+  
+    // 设置返回按钮
+    UIBarButtonItem *item = [[UIBarButtonItem alloc] initWithImage:[UIImage imageNamed:@"nav_back.png"] style:UIBarButtonItemStylePlain target:nil action:nil];
+    self.navigationItem.backBarButtonItem = item;
     
-    UINavigationBar * navigationBar = [UINavigationBar appearance];
-    [navigationBar setTintColor:[UIColor redColor]];
-    UIImage *image = [UIImage imageNamed:@"nav_back.png"];
-    image = [image imageWithRenderingMode:UIImageRenderingModeAlwaysOriginal];
-    navigationBar.backIndicatorImage = image;
-    navigationBar.backIndicatorTransitionMaskImage = image;
+    
     
     // 设置导航文字颜色
     [[UINavigationBar appearance] setTintColor:[UIColor whiteColor]];
-    
     //    [[UINavigationBar appearance] setTranslucent:YES];
     
     // 设置导航背景
@@ -99,11 +104,11 @@
     // 设置导航字体   shadow, NSShadowAttributeName,
     NSShadow *shadow = [[NSShadow alloc] init];
     shadow.shadowColor = [UIColor colorWithRed:0.0 green:0.0 blue:0.0 alpha:0.8];
-    shadow.shadowOffset = CGSizeMake(0, 1);
-    [[UINavigationBar appearance] setTitleTextAttributes: [NSDictionary dictionaryWithObjectsAndKeys: [UIColor colorWithRed:245.0/255.0 green:245.0/255.0 blue:245.0/255.0 alpha:1.0], NSForegroundColorAttributeName, [UIFont fontWithName:@"Helvetica" size:16], NSFontAttributeName, nil]];
-    
+    shadow.shadowOffset = CGSizeMake(0, 0);
+    [[UINavigationBar appearance] setTitleTextAttributes: [NSDictionary dictionaryWithObjectsAndKeys: [UIColor colorWithRed:245.0/255.0 green:245.0/255.0 blue:245.0/255.0 alpha:1.0], NSForegroundColorAttributeName, [UIFont fontWithName:@"Helvetica" size:19], NSFontAttributeName, nil]];
     
 }
+
 // 设置子空间UI
 - (void)setupSubviewsUI{
 }
